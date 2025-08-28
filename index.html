@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Box Model Demonstration</h1>
+        <p>Understanding how margin, padding, and borders work together</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>What is the CSS Box Model?</h2>
+            <p>The CSS box model is a fundamental concept in web design and development. Every element on a web page is represented as a rectangular box, and the box model describes how the content, padding, border, and margin of these boxes are calculated.</p>
+            
+            <div class="box-model-demo">
+                <div class="content-box">
+                    <p>This is the content area</p>
+                    <p>Padding: 30px | Border: 5px | Margin: 20px</p>
+                </div>
+            </div>
+            
+            <p>In the demonstration above, you can see how padding creates space inside the element, the border outlines the element, and margin creates space outside the element.</p>
+        </section>
+        
+        <section>
+            <h2>Box Model Components</h2>
+            
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-header">Content</div>
+                    <div class="card-body">
+                        <p>The actual content of the box, where text and images appear.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">Padding</div>
+                    <div class="card-body">
+                        <p>Clears an area around the content. The padding is transparent.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">Border</div>
+                    <div class="card-body">
+                        <p>A border that goes around the padding and content.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">Margin</div>
+                    <div class="card-body">
+                        <p>Clears an area outside the border. The margin is transparent.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px; text-align: center;">
+                <a href="#" class="btn">Learn More</a>
+                <a href="#" class="btn btn-secondary">Examples</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>CSS Box Model Demonstration &copy; 2023</p>
+        <p>Created with HTML and CSS only - no JavaScript or external libraries</p>
+    </footer>
+</body>
+</html>
